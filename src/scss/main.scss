@@ -1,0 +1,199 @@
+// This is where you can import other stylesheets or write your scss code{
+    @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+    header {
+        position: relative;
+        background-color: black;
+        height: 75vh;
+        min-height: 25rem;
+        width: 100%;
+        overflow: hidden;
+      }
+      
+      header
+      {
+       img {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        width: 100%;
+        height: auto;
+        transform: translateX(-50%) translateY(-50%);
+      }
+    }
+ .navbar{
+     a{
+         color: mediumslateblue;
+         img{
+
+             width: 40px;
+             
+             left: 10px;
+             top: 8px;
+         }
+     }
+ }   
+
+// .hcontainer{
+//     position: relative;
+//     overflow: hidden;
+//     height:600px ;
+    
+// }
+// .headerimg{
+//     display: block;
+//     width: 100%;
+//     height: auto;
+//     position: absolute;
+//     bottom: 0;
+// }
+// .ncontainer{
+//     width: 100%;
+//     position: absolute;
+// }
+// .ucontainer{
+    
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-evenly;
+    
+// }
+// .flexitem{
+//     flex-grow: 3;
+//     align-self: flex-end;
+// }
+// #flexitem1{
+    
+//     width: 600px; 
+//     align-self: flex-start;
+// }
+// ul{
+//     li{
+//         list-style: none;
+         
+//         a{
+//             text-decoration: none;
+//             color: mediumslateblue;
+//             &:hover{
+//                 text-decoration: none;
+//                 color: mediumslateblue;
+//             }
+//             img{
+        
+//                 width: 20px;
+//                 height: 20px;
+//             }
+//         }
+    
+//     }
+// }
+   
+// }
+// header{
+//     section{
+//         top: 100px;
+//         position: absolute;
+//         color: oldlace;
+//         padding: 40px;
+        
+//     }
+//     h1{
+        
+//         font-family: 'Love Ya Like A Sister', cursive;
+//         font-size: 10rem;
+//     }
+//     p{
+        
+        
+//         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+//     }
+//     button{
+//         color: white;
+//         background-color: mediumslateblue;
+//         margin: 2px;
+//     }
+    
+// }
+.midsection{
+    margin: 70px;
+    
+    h1{
+        text-align: center;
+        font-size: 5rem;
+        font-family:'Love Ya Like A Sister', cursive ;
+    }
+    h5{
+        text-align: center;
+        font-family:'Love Ya Like A Sister', cursive ;
+    }
+    p{
+        text-align: justify;
+    }
+    img{
+        margin: 0 auto;
+        width: 65px;
+        height: 50px;
+    }
+   .card{
+       border: none;
+   }
+    
+}
+.thirdsection{
+    width: 100%;
+    background-color: mediumslateblue;
+
+    
+    h2{
+        color: white;
+        text-align: center;
+        font-size: 4rem;
+        font-family:'Love Ya Like A Sister', cursive ;
+        
+    }
+    button{
+        color: mediumslateblue;
+    }
+    h5{
+        font-family:'Love Ya Like A Sister', cursive ;
+    }
+}
+div{
+    h2{
+        text-align: center;
+        font-size: 40px;
+        font-family:'Love Ya Like A Sister', cursive ;
+    }
+}
+.fourthcontainer{
+    margin: 40px;
+}
+.formcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div{
+        margin-bottom: 20px;
+    }
+}
+input{
+    
+    width: 300px;
+    
+}
+label{
+    height: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
